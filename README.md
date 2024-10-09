@@ -1,5 +1,8 @@
 # Tamagotchi Game in .NET
 
+![image](https://github.com/user-attachments/assets/a1b0cc64-9f48-4ae5-ace6-6faefe119cf4)
+
+
 ## Descripción
 Este es un juego de tipo Tamagotchi desarrollado en .NET usando Windows Forms. El objetivo del juego es cuidar a tu Tamagotchi virtual, manteniéndolo alimentado, feliz y con energía.
 
