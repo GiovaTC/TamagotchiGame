@@ -17,4 +17,4 @@ Este es un juego de tipo Tamagotchi desarrollado en .NET usando Windows Forms. E
 
 1. Clona el repositorio en tu máquina local:
    ```bash
-   git clone https://github.com/tu-usuario/tamagotchi-game.git
+   git clone https://github.com/GiovaTC/TamagotchiGame.git
