@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             pictureBox1 = new PictureBox();
             lblHambre = new Label();
             lblFelicidad = new Label();
@@ -43,9 +44,11 @@
             // pictureBox1
             // 
             pictureBox1.BackColor = SystemColors.ButtonFace;
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.InitialImage = (Image)resources.GetObject("pictureBox1.InitialImage");
             pictureBox1.Location = new Point(59, 41);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(328, 316);
+            pictureBox1.Size = new Size(328, 326);
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
@@ -84,7 +87,7 @@
             btnAlimentar.BackColor = Color.FromArgb(0, 0, 192);
             btnAlimentar.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnAlimentar.ForeColor = SystemColors.ButtonHighlight;
-            btnAlimentar.Location = new Point(432, 238);
+            btnAlimentar.Location = new Point(476, 238);
             btnAlimentar.Name = "btnAlimentar";
             btnAlimentar.Size = new Size(109, 42);
             btnAlimentar.TabIndex = 4;
@@ -96,7 +99,7 @@
             btnJugar.BackColor = Color.FromArgb(0, 0, 192);
             btnJugar.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnJugar.ForeColor = Color.White;
-            btnJugar.Location = new Point(561, 238);
+            btnJugar.Location = new Point(591, 238);
             btnJugar.Name = "btnJugar";
             btnJugar.Size = new Size(109, 42);
             btnJugar.TabIndex = 5;
@@ -108,7 +111,7 @@
             btnDormir.BackColor = Color.FromArgb(0, 0, 192);
             btnDormir.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnDormir.ForeColor = SystemColors.ButtonHighlight;
-            btnDormir.Location = new Point(432, 305);
+            btnDormir.Location = new Point(476, 286);
             btnDormir.Name = "btnDormir";
             btnDormir.Size = new Size(109, 42);
             btnDormir.TabIndex = 6;
